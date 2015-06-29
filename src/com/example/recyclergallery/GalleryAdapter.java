@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 public class GalleryAdapter extends
 		RecyclerView.Adapter<GalleryAdapter.ViewHolder> {
@@ -25,9 +24,8 @@ public class GalleryAdapter extends
 		public ViewHolder(View arg0) {
 			super(arg0);
 		}
-
+		
 		ImageView mImg;
-		TextView mTxt;
 	}
 
 	@Override
